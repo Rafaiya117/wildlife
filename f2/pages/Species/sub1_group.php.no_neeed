@@ -1,0 +1,93 @@
+<?php global $sub_group_data;
+echo "hello";
+?>
+
+Content Wrapper. Contains page content
+<div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <!-- Main content -->
+    <section class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="box listing-panel">
+                    <div class="box-body">
+                        <div id="example2_wrapper" class="dataTables_wrapper form-inline dt-bootstrap no-footer">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <!-- <div class="dataTables_length" id="example2_length">
+                                        <label>Show <select name="example2_length" aria-controls="example2" class="form-control input-sm">
+                                                <option value="10">10</option>
+                                                <option value="25">25</option>
+                                                <option value="50">50</option>
+                                                <option value="100">100</option>
+                                            </select> entries</label>
+                                    </div> -->
+                                </div>
+                                <div class="form-group col-md-12">
+                                    <div id="example2_filter" class="dataTables_filter">
+                                        <label class="inner-label">Search:
+                                            <input type="search" class="form-control  inner-textfield" placeholder="" aria-controls="example2">
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <table class="table table-bordered table-hover dataTable no-footer inner-textfield">
+                                        <thead>
+                                            <tr>
+                                                <th>id</th>
+                                                
+                                                <th>Sub Group</th>
+                                                <th>Sub Group Bangla</th>
+                                                
+                                                <!-- <th>Trade for</th> -->
+                                                <th></th>
+                                            </tr>
+                                        </thead>
+                                         <?php echo "<tbody>";
+                                         
+                                         for ($i = 1, $ilen = sizeof($sub_group_data); $i < $ilen; $i++) {
+                                           echo "<tr><td>" . ($sub_group_data[$i]['id']) . "</td>";
+                                            
+                                           echo "<td>" . ($sub_group_data[$i]['Sub Group']) . "</td>";
+                                           echo "<td>" . ($sub_group_data[$i]['Sub Group BN']) ."</td></tr>";
+                                          
+                                         }
+                                         echo "</tbody>";
+                                         ?>
+
+                                         
+                                           
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-5">
+                                    <div class="dataTables_info" id="example2_info" role="status" aria-live="polite">Showing 1 to 100 of 353 entries</div>
+                                </div>
+                                <div class="col-sm-7">
+                                    <div class="dataTables_paginate paging_simple_numbers" id="example2_paginate">
+                                        <ul class="pagination">
+                                            <li class="paginate_button previous disabled" id="example2_previous"><a href="https://wlor.wildcrimeassist.in/species#" aria-controls="example2" data-dt-idx="0" tabindex="0">Previous</a></li>
+                                            <li class="paginate_button active"><a href="https://wlor.wildcrimeassist.in/species#" aria-controls="example2" data-dt-idx="1" tabindex="0">1</a></li>
+                                            <li class="paginate_button "><a href="https://wlor.wildcrimeassist.in/species#" aria-controls="example2" data-dt-idx="2" tabindex="0">2</a></li>
+                                            <li class="paginate_button "><a href="https://wlor.wildcrimeassist.in/species#" aria-controls="example2" data-dt-idx="3" tabindex="0">3</a></li>
+                                            <li class="paginate_button "><a href="https://wlor.wildcrimeassist.in/species#" aria-controls="example2" data-dt-idx="4" tabindex="0">4</a></li>
+                                            <li class="paginate_button next" id="example2_next"><a href="https://wlor.wildcrimeassist.in/species#" aria-controls="example2" data-dt-idx="5" tabindex="0">Next</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+<!-- /.content-wrapper -->
+
+<div class="control-sidebar-bg"></div>
+</div>

@@ -1,0 +1,1 @@
+__.hash_active['#schedule_3'] = ['#access-resource' ];

@@ -1,0 +1,39 @@
+.input_error {
+  border: rgb(233, 30, 30) 3px solid;
+}
+.input_error_lebel_text {
+  color: rgb(233, 30, 30);
+}
+
+.noti_loca_xrgb {
+  position: fixed;
+  top: 65px;
+  right: 22px;
+  z-index: 21;
+}
+.nt_icon_x {
+  font-size: 2.2em;
+}
+.notification_error {
+  color: #b71c1c;
+  background: #ffccbc;
+}
+.notification_sucess {
+  color: #33691e;
+  background: #dcedc8;
+}
+.float-left {
+  float: left;
+  margin-left: 7px;
+}
+.nt-clear {
+  clear: both;
+}
+.notification_push {
+  position: relative;
+  font-size: 2.2em;
+  padding: 10px;
+  z-index: 315;
+  border-radius: 10px;
+  margin: 5px;
+}

@@ -1,0 +1,86 @@
+.login-text{
+    color: white;
+}
+.login-form {
+    width: 300px;
+    padding: 40px 30px;
+    background: #227781;
+    margin: auto;
+    position: center;
+    /* left: 70%;
+    right: 0;
+    top: 30%; */
+    border-radius: 1em;
+    box-shadow: 7px 10px  gainsboro;
+    margin-top: 10%;
+}
+
+.form-group {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.form-control {
+    width: 96%;
+    height: 50px;
+    border: none;
+    padding: 5px 7px 5px 15px;
+    background: #fff;
+    color: #666;
+    border-radius: 15px;
+}
+
+.form-group .fa {
+    position: absolute;
+    right: 15px;
+    top: 17px;
+    color: #999;
+}
+
+
+.log-status.wrong-entry .form-control,
+.wrong-entry .form-control+.fa {
+    border-color: #ed1c24;
+    color: #ed1c24;
+}
+
+.log-btn {
+    background: #02231C;
+    display: inline-block;
+    width: 100%;
+    font-size: 17px;
+    height: 50px;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 15px;
+
+}
+
+.btn1 {
+    background: #0AC986;
+    display: inline-block;
+    width: 100%;
+    font-size: 17px;
+    height: 50px;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 15px;
+
+}
+
+.link {
+    text-decoration:whitesmoke;
+    color: #C6C6C6;
+    float: right;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+.alert {
+    display: none;
+    font-size: 12px;
+    color: #f00;
+    float: left;
+}
